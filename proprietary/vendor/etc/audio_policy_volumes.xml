@@ -66,7 +66,7 @@ volume index from 0 to 100.
         <point>1,-3500</point>
         <point>33,-2100</point>
         <point>66,-1300</point>
-        <point>100,-650</point>
+        <point>100,-500</point>
     </volume>
     <volume stream="AUDIO_STREAM_NOTIFICATION" deviceCategory="DEVICE_CATEGORY_EARPIECE"
                                                ref="DEFAULT_DEVICE_CATEGORY_EARPIECE_VOLUME_CURVE"/>

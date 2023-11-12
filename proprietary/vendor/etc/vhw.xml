@@ -2207,7 +2207,7 @@
 		</mappings>
 	</device>
 
-	<device name="pnangn" version="0.5">
+	<device name="pnangn" version="0.3">
 
 		<!-- Features list variable hardware components for this device -->
 		<features>
@@ -2230,8 +2230,6 @@
 				<item>ecompass</item>
 				<!-- esim -->
 				<item>esim</item>
-				<!-- esim id-->
-                                <item>esimid</item>
 			</string-array>
 		</features>
 
@@ -2288,7 +2286,7 @@
 				<item>false</item>
 			</string-array>
 
-			<string name="esim/.auto">default=false</string>
+			<string name="esim/.auto">default=true</string>
 			<string name="esim/.system">ro.vendor.hw.</string>
 			<string-array name="esim/.range">
 				<item>true</item>
@@ -2325,8 +2323,6 @@
                                 <item>false</item>
 			</string-array>
 
-			<string name="esimid/.auto">uspace=config;name=esimid</string>
-			<string name="esimid/.system">ro.vendor.</string>
 		</constraints>
 
 		<mappings>
