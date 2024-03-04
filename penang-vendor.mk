@@ -537,4 +537,5 @@ PRODUCT_PACKAGES += \
     EuiccGoogle \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
-    com.android.hotwordenrollment.common.util
+    com.android.hotwordenrollment.common.util \
+    qti-telephony-common
