@@ -2508,6 +2508,11 @@
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
     </path>
 
+    <path name="voicemmode1-call voice-speaker-and-voice-headphones">
+        <ctl name="RX_CDC_DMA_RX_0_Voice Mixer VoiceMMode1" value="1" />
+        <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
+    </path>
+
     <path name="voicemmode1-call headset">
         <ctl name="RX_CDC_DMA_RX_0_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_4_MMode1" value="1" />
@@ -2573,6 +2578,11 @@
     </path>
 
     <path name="voicemmode2-call headphones">
+        <ctl name="RX_CDC_DMA_RX_0_Voice Mixer VoiceMMode2" value="1" />
+        <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
+    </path>
+
+    <path name="voicemmode2-call voice-speaker-and-voice-headphones">
         <ctl name="RX_CDC_DMA_RX_0_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
     </path>
@@ -3701,6 +3711,34 @@
         <ctl name="AUX_RDAC Switch" value="1"/>
         <ctl name="RX HPH Mode" value="CLS_AB" />
         <ctl name="aw87xxx_profile_switch_1" value="Music"/>
+        <ctl name="aw87xxx_monitor_switch_1" value="Disable"/>
+        <ctl name="RX_RX2 Digital Volume" value="84" />
+        <ctl name="RX_RX0 Digital Volume" value="79" />
+        <ctl name="RX INT1_1 MIX1 INP0" value="RX1" />
+        <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
+        <ctl name="RX_COMP1 Switch" value="1" />
+        <ctl name="RX_COMP2 Switch" value="1" />
+        <ctl name="HPHL_COMP Switch" value="1" />
+        <ctl name="HPHR_COMP Switch" value="1" />
+        <ctl name="HPHL_RDAC Switch" value="1" />
+        <ctl name="HPHR_RDAC Switch" value="1" />
+    </path>
+
+    <path name="voice-speaker-and-voice-headphones">
+        <ctl name="RX_CDC_DMA_RX_0 Channels" value="Two" />
+        <ctl name="RX_MACRO RX0 MUX" value="AIF1_PB" />
+        <ctl name="RX_MACRO RX1 MUX" value="AIF1_PB" />
+        <ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
+        <ctl name="EAR_RDAC Switch" value="1" />
+        <ctl name="RDAC3_MUX" value="RX1" />
+        <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT"/>
+        <ctl name="RX_EAR Mode" value="ON" />
+        <ctl name="aw87xxx_profile_switch_0" value="Voice"/>
+        <ctl name="aw87xxx_monitor_switch_0" value="Disable"/>
+        <ctl name="RX INT2_1 MIX1 INP0" value="RX1" />
+        <ctl name="AUX_RDAC Switch" value="1"/>
+        <ctl name="RX HPH Mode" value="CLS_AB" />
+        <ctl name="aw87xxx_profile_switch_1" value="Voice"/>
         <ctl name="aw87xxx_monitor_switch_1" value="Disable"/>
         <ctl name="RX_RX2 Digital Volume" value="84" />
         <ctl name="RX_RX0 Digital Volume" value="79" />
