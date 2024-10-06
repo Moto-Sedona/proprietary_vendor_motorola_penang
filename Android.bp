@@ -38,13 +38,6 @@ dex_import {
 	system_ext_specific: true,
 }
 
-dex_import {
-	name: "qti-telephony-common",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
-	system_ext_specific: true,
-}
-
 prebuilt_etc_xml {
 	name: "manifest_IMoto_Fingerprint.xml",
 	owner: "motorola",

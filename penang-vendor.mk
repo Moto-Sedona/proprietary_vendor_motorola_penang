@@ -553,5 +553,4 @@ PRODUCT_PACKAGES += \
     EuiccGoogle \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
-    qti-telephony-common \
     manifest_IMoto_Fingerprint.xml
