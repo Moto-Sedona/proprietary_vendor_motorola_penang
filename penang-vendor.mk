@@ -550,5 +550,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    MobileFeliCaClient \
     com.android.hotwordenrollment.common.util \
     manifest_IMoto_Fingerprint.xml
