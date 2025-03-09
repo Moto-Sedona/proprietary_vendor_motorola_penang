@@ -25,6 +25,9 @@ android_app_import {
 	apk: "proprietary/product/app/MotCamera3AI/MotCamera3AI.apk",
 	preprocessed: true,
 	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
 	product_specific: true,
 }
 
@@ -32,10 +35,10 @@ android_app_import {
 	name: "HotwordEnrollmentXGoogleHEXAGON_WIDEBAND",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	privileged: true,
 	product_specific: true,
 }
@@ -58,10 +61,10 @@ android_app_import {
 	name: "MotCamera4",
 	owner: "motorola",
 	apk: "proprietary/product/priv-app/MotCamera4/MotCamera4.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	privileged: true,
 	product_specific: true,
 }
@@ -70,10 +73,10 @@ android_app_import {
 	name: "MotorolaSettingsProvider",
 	owner: "motorola",
 	apk: "proprietary/system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	certificate: "platform",
 	privileged: true,
 	system_ext_specific: true,
 }
